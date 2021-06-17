@@ -32,18 +32,15 @@ body {
   flex-wrap: wrap;
 }
 #img-container {
-  position: relative;
-  z-index: 1;
-  background: hsl(277, 64%, 61%);
+  background: hsl(277, 64%, 61%),
+    "./images/image-header-desktop.jpg" no-repeat top center;
   margin: 0px;
   display: inline-block;
 }
 img {
-  position: relative;
-  z-index: 0;
   width: auto;
   height: 100%;
-  opacity: 0.5;
+  opacity: 0;
 }
 
 @media screen and (max-width: 1000px) {
