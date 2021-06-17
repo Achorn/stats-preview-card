@@ -42,12 +42,11 @@ body {
   background: hsl(277, 64%, 61%);
 }
 img {
-  display: block;
-
+  /* background: hsl(277, 64%, 61%); */
   width: auto;
   height: 100%;
-  opacity: 0.9;
-  mix-blend-mode: multiply;
+  /* opacity: 0.9; */
+  /* mix-blend-mode: multiply; */
 }
 
 @media screen and (max-width: 1000px) {

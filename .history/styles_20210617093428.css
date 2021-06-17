@@ -1,9 +1,14 @@
 body {
   padding-top: 50px;
   width: 100%;
+  /* background-color: white; */
   font-family: "Inter", sans-serif;
   background-color: hsl(233, 47%, 7%);
   height: 100vh;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
   text-align: center;
   margin: 0px;
 }
@@ -40,11 +45,12 @@ body {
 }
 #img-container {
   background: hsl(277, 64%, 61%);
+  /* margin: 0px; */
+  /* display: inline-block; */
 }
 img {
-  display: block;
-
-  width: auto;
+  background: hsl(277, 64%, 61%);
+  width: 100%;
   height: 100%;
   opacity: 0.9;
   mix-blend-mode: multiply;
