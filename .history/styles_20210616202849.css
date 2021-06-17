@@ -2,7 +2,6 @@ body {
   padding-top: 50px;
   width: 100%;
   /* background-color: white; */
-  font-family: "Inter", sans-serif;
   background-color: hsl(233, 47%, 7%);
   height: 100vh;
   /* display: flex;
@@ -27,20 +26,10 @@ body {
 #text-container {
   padding: 50px;
 }
-#sub {
-  color: hsla(0, 0%, 100%, 0.75);
-  font-weight: normal;
-}
 #desc-container {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-}
-
-#stat {
-  color: hsla(0, 0%, 100%, 0.6);
-  font-weight: normal;
-  text-transform: uppercase;
 }
 #img-container {
   position: relative;

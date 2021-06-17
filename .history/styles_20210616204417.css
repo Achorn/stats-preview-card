@@ -40,7 +40,6 @@ body {
 #stat {
   color: hsla(0, 0%, 100%, 0.6);
   font-weight: normal;
-  text-transform: uppercase;
 }
 #img-container {
   position: relative;
