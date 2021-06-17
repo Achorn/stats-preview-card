@@ -4,16 +4,14 @@ body {
   /* background-color: white; */
   background-color: hsl(233, 47%, 7%);
   height: 100vh;
-  /* display: flex;
+  display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center; */
-  text-align: center;
+  align-items: center;
 }
 
 #card-container {
-  margin: 0 auto;
-  overflow: hidden;
+  /* overflow: hidden; */
   border-radius: 10px;
   width: 90%;
   max-width: 1100px;
@@ -31,12 +29,8 @@ body {
   flex-wrap: wrap;
 }
 #img-container {
-  margin: 0px;
+  margin: 0px auto;
   display: inline-block;
-}
-img {
-  width: auto;
-  height: 100%;
 }
 
 @media screen and (max-width: 1000px) {
@@ -45,10 +39,6 @@ img {
     text-align: center;
     width: 90%;
     flex-direction: column-reverse;
-  }
-  img {
-    width: 100%;
-    height: auto;
   }
 }
 

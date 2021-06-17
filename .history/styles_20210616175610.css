@@ -8,12 +8,10 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center; */
-  text-align: center;
 }
 
 #card-container {
-  margin: 0 auto;
-  overflow: hidden;
+  overflow: auto;
   border-radius: 10px;
   width: 90%;
   max-width: 1100px;
