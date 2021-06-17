@@ -43,6 +43,8 @@ body {
   text-transform: uppercase;
 }
 #img-container {
+  float: left;
+  display: block;
   background: hsl(277, 64%, 61%);
   /* margin: 0px; */
   /* display: inline-block; */

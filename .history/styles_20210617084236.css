@@ -43,13 +43,15 @@ body {
   text-transform: uppercase;
 }
 #img-container {
+  position: relative;
+  z-index: 1;
   background: hsl(277, 64%, 61%);
-  /* margin: 0px; */
-  /* display: inline-block; */
+  margin: 0px;
+  display: inline-block;
 }
 img {
-  background: hsl(277, 64%, 61%);
-
+  position: relative;
+  z-index: 0;
   width: auto;
   height: 100%;
   opacity: 0.9;
@@ -64,8 +66,8 @@ img {
     flex-direction: column-reverse;
   }
   img {
-    width: 100%;
-    height: auto;
+    /* width: 100%; */
+    /* height: auto; */
   }
 }
 
