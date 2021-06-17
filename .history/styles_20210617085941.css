@@ -10,7 +10,6 @@ body {
   justify-content: center;
   align-items: center; */
   text-align: center;
-  margin: 0px;
 }
 
 #card-container {
@@ -62,6 +61,7 @@ img {
     text-align: center;
     width: 90%;
     flex-direction: column-reverse;
+    margin: 0;
   }
   #text-container {
     padding: 20px;
