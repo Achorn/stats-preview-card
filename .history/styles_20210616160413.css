@@ -1,0 +1,17 @@
+body {
+  background-color: hsl(233, 47%, 7%);
+}
+
+#card-container {
+  color: white;
+  background-color: hsl(244, 38%, 16%);
+  display: flex;
+}
+
+#text-container {
+  width: 50%;
+}
+
+#desc-container {
+  display: flex;
+}

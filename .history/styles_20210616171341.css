@@ -1,0 +1,33 @@
+body {
+  width: 100%;
+  background-color: hsl(233, 47%, 7%);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+#card-container {
+  width: 90%;
+  max-width: 900px;
+  color: white;
+  background-color: hsl(244, 38%, 16%);
+  display: flex;
+}
+#img-container {
+  width: 400px;
+}
+
+#text-container {
+  width: 400px;
+  height: auto;
+  padding: 40px;
+}
+
+#desc-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+#title {
+  margin-top: 0px;
+}

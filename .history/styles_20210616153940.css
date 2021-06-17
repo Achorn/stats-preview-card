@@ -1,0 +1,8 @@
+body {
+  background-color: hsl(233, 47%, 7%);
+}
+
+#card-container {
+  color: white;
+  background-color: hsl(244, 38%, 16%);
+}

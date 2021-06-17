@@ -1,0 +1,17 @@
+body {
+  width: 100%;
+  background-color: aquamarine;
+  /* background-color: hsl(233, 47%, 7%); */
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#card-container {
+  width: 90%;
+  max-width: 1200px;
+  color: white;
+  background-color: hsl(244, 38%, 16%);
+  display: flex;
+}

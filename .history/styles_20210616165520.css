@@ -1,0 +1,48 @@
+body {
+  background-color: hsl(233, 47%, 7%);
+  height: 100vh;
+}
+
+@media screen and (max-width: 950px) {
+  #card-container {
+    width: 400px;
+    flex-direction: column-reverse;
+  }
+  #text-container {
+    text-align: center;
+  }
+  #desc-container {
+    flex-direction: column;
+  }
+  #stat-image {
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+  }
+}
+
+#card-container {
+  width: 100%; //set to 100% since you're capping it at 1200 anyways
+  max-width: 900px;
+  color: white;
+  background-color: hsl(244, 38%, 16%);
+  display: flex;
+}
+#img-container {
+  width: 400px;
+}
+
+#text-container {
+  width: 400px;
+  height: auto;
+  padding: 40px;
+}
+
+#desc-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+#title {
+  margin-top: 0px;
+}

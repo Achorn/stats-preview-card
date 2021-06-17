@@ -1,0 +1,28 @@
+body {
+  width: 100%;
+  background-color: white;
+  /* background-color: hsl(233, 47%, 7%); */
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#card-container {
+  width: 90%;
+  max-width: 1000px;
+  color: white;
+  background-color: hsl(244, 38%, 16%);
+  display: flex;
+}
+
+@media screen and (max-width: 1000px) {
+  body {
+    background-color: lightblue;
+  }
+  #card-container {
+    width: 90%;
+
+    flex-direction: column-reverse;
+  }
+}
